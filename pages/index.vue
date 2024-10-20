@@ -17,9 +17,6 @@
   font-weight: 400;
   font-style: normal;
 }
-</style>
-
-<style scoped>
 
 .responsive-img {
   max-width: 100%;
@@ -28,9 +25,8 @@
 
 .background-photo {
   background-image: url('/assets/unsplashBG.jpg') !important;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }
 </style>
-
