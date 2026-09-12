@@ -60,7 +60,7 @@
 <div class="card">
   <h1>Morgan's QRIS</h1>
   <div class="qr-frame">
-    <img id="qrImage" src="MorganQRIS.svg">
+    <img id="qrImage" src="MorganQRIS.jpg">
   </div>
   <button onclick="downloadQR()">Simpan QR</button>
 </div>
@@ -69,7 +69,7 @@
   function downloadQR() {
     const link = document.createElement('a');
     link.href = document.getElementById('qrImage').src;
-    link.download = 'MorganQRIS.svg';
+    link.download = 'MorganQRIS.jpg';
     link.click();
   }
 </script>
